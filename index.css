@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('./starjedi/Starjedi.ttf') format('truetype')
+}
+
+* {
+    font-family: 'MyWebFont';
+    background-color: black;
+    color: white;
+    font-size: 100px;
+}
+
+#container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* display: ; */
+}
+
+#gif {
+    display: none;
+}

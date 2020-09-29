@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+</html>
+
+<body>
+    <!-- <video width="320" height="240" controls autoplay>
+        <source src="./giphy.mp4" type="video/mp4">
+    </video> -->
+    <img id="first" src="./stormtrooper_2x.gif" alt="">
+    <div id="container">
+        <p>
+            Happy birthday <br>
+            Richa!
+        </p>
+    </div>
+    <img id="gif" src="./ezgif.com-gif-maker.gif" loop=false alt="">
+    <!-- <div class="loader">
+        <div id="ababa"></div>
+    </div>
+    <div class="container" id="main">
+        <div class="congratulations">
+            All The Best Nisha for your new chapter in life!
+        </div>
+        <div class="image-container">
+            <img src="./image.png" alt="">
+        </div>
+        <br>
+        <div class="ps-text">
+            Hope you achieve Everest of success, both literally and figuratively(if you know what I mean)! 😁😁😁
+        </div>
+    </div>  -->
+    <script>
+        var img = new Image();
+        img.onload = function () {
+            var first = document.getElementById("first");
+            setTimeout(() => {
+                first.style.display = 'none';
+                var gif = document.getElementById("gif");
+                gif.style.display = "block";
+                setTimeout(() => {
+                    var img = document.getElementById('gif');
+                    img.style.display = 'none';
+                    var container = document.getElementById("container");
+                    container.style.display = 'flex';
+                }, 6000)
+            }, 2000);
+        }
+        img.src = "./ezgif.com-gif-maker.gif";
+        // var text = "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀";
+        // var i = 0;
+        // typeWriter();
+        // function typeWriter() {
+        //     var e = document.getElementById("ababa");
+        //     if (i < text.length) {
+        //         e.innerHTML += text.charAt(i);
+        //         i++;
+        //         setTimeout(typeWriter, 100);
+        //     } else {
+        //         var x = document.getElementById("main");
+        //         e.style.display = "none";
+        //         x.style.display = "block";
+        //     }
+        // }
+    </script>
+
+</body>
