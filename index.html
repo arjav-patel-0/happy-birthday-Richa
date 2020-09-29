@@ -11,14 +11,18 @@
     <!-- <video width="320" height="240" controls autoplay>
         <source src="./giphy.mp4" type="video/mp4">
     </video> -->
-    <img id="first" src="./stormtrooper_2x.gif" alt="">
+    <div class="flex-container">
+        <img id="first" src="./stormtrooper_2x.gif" alt="">
+    </div>
     <div id="container">
         <p>
             Happy birthday <br>
             Richa!
         </p>
     </div>
-    <img id="gif" src="./ezgif.com-gif-maker.gif" loop=false alt="">
+    <div class="flex-container">
+        <img id="gif" src="./ezgif.com-gif-maker.gif" loop=false alt="">
+    </div>
     <!-- <div class="loader">
         <div id="ababa"></div>
     </div>
@@ -45,7 +49,7 @@
                 setTimeout(() => {
                     var img = document.getElementById('gif');
                     img.style.display = 'none';
-                    var container = document.getElementById("container");
+                    var container = document.getElementsByTagName("container");
                     container.style.display = 'flex';
                 }, 6000)
             }, 2000);
