@@ -23,21 +23,6 @@
     <div class="flex-container">
         <img id="gif" src="./ezgif.com-gif-maker.gif" loop=false alt="">
     </div>
-    <!-- <div class="loader">
-        <div id="ababa"></div>
-    </div>
-    <div class="container" id="main">
-        <div class="congratulations">
-            All The Best Nisha for your new chapter in life!
-        </div>
-        <div class="image-container">
-            <img src="./image.png" alt="">
-        </div>
-        <br>
-        <div class="ps-text">
-            Hope you achieve Everest of success, both literally and figuratively(if you know what I mean)! 😁😁😁
-        </div>
-    </div>  -->
     <script>
         var img = new Image();
         img.onload = function () {
@@ -49,7 +34,7 @@
                 setTimeout(() => {
                     var img = document.getElementById('gif');
                     img.style.display = 'none';
-                    var container = document.getElementsByTagName("container");
+                    var container = document.getElementById("container");
                     container.style.display = 'flex';
                 }, 6000)
             }, 2000);
