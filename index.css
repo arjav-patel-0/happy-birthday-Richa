@@ -7,7 +7,7 @@
     font-family: 'MyWebFont';
     background-color: black;
     color: white;
-    font-size: 100px;
+    font-size: 60px;
 }
 
 body {
@@ -27,6 +27,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url('./MagnificentJoyousEyra-small.gif');
+    width: 100%;
+    height: 100%;
     /* display: ; */
 }
 
